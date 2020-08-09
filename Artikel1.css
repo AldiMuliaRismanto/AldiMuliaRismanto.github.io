@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lead{
+    text-align: justify;
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.lead.berubah {
+    transform: translateX(0);
+    opacity: 1;
+}
+footer{
+    background-color: orange;
+}
